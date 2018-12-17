@@ -1,4 +1,4 @@
-word in body
+step 1 - word in body
   - topics
     - running your code
     - assigning to a variable
@@ -7,11 +7,11 @@ word in body
     - `in` operator (membership)
     - print function
 
-check for multiple words
+step 2 - check for multiple words
   - topics
     - arrays
     - for loops
 
-remove repeated code
+step 3 - remove repeated code
   - topics
     - functions
