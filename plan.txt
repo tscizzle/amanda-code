@@ -1,0 +1,17 @@
+word in body
+  - topics
+    - running your code
+    - strings
+    - booleans
+    - assigning to a variable
+    - `in` operator
+    - print statement
+
+check for multiple words
+  - topics
+    - arrays
+    - for loops
+
+remove repeated code
+  - topics
+    - functions
