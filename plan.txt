@@ -1,11 +1,11 @@
 word in body
   - topics
     - running your code
+    - assigning to a variable
     - strings
     - booleans
-    - assigning to a variable
-    - `in` operator
-    - print statement
+    - `in` operator (membership)
+    - print function
 
 check for multiple words
   - topics

@@ -1,4 +1,11 @@
 # Step 1: check if target word is in text body
+# Topics info
+# - running your code: in Terminal, type "python main.py" and hit Enter
+# - variables: https://www.w3schools.com/python/python_variables.asp
+# - strings: https://www.w3schools.com/python/python_strings.asp
+# - booleans: https://www.pythonforbeginners.com/basics/boolean
+# - `in` operator (membership): https://www.tutorialspoint.com/python/membership_operators_example.htm
+# - print function: https://docs.python.org/3/whatsnew/3.0.html#print-is-a-function
 
 # target word
 bad_ingredient = ''
