@@ -7,6 +7,20 @@
 # - `in` operator (membership): https://www.tutorialspoint.com/python/membership_operators_example.htm
 # - print function: https://docs.python.org/3/whatsnew/3.0.html#print-is-a-function
 
+## EXAMPLE: check if a potion includes llama
+# - type `python` into the Terminal to open the python interpreter where you can run python commands
+# - run these commands in the python interpreter
+
+potion_1 = "baking powder, extract of llama, m&m's"
+potion_2 = "extract of cow, sugar, flour, can-go-home-juice"
+
+potion_1_has_llama = 'llama' in potion_1
+potion_2_has_llama = 'llama' in potion_2
+
+# type `potion_1_has_llama` and `potion_2_has_llama` to see their values
+
+## PROBLEM
+
 # target word
 bad_ingredient = ''
 ## TODO: replace this line
