@@ -1,0 +1,21 @@
+step 1 - word in body
+  - topics
+    - running your code
+    - assigning to a variable
+    - strings
+    - booleans
+    - `in` operator (membership)
+    - print function
+
+step 2 - check for multiple words
+  - topics
+    - arrays
+    - for loops
+
+step 3 - remove repeated code
+  - topics
+    - functions
+
+step 4 - web app
+  - topics
+    - flask
