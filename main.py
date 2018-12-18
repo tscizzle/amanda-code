@@ -19,9 +19,12 @@ for age in citizen_ages:
 ## PROBLEM
 
 # target words
+bad_ingredient_1 = 'Capric/Caprylic Triglycerides (Coconut Oil)'
+bad_ingredient_2 = 'Cocos Nucifera (Coconut) Fruit Extract'
+bad_ingredient_3 = 'Cocos Nucifera (Coconut) Water'
+bad_ingredient_4 = 'Cocos Nucifera (Coconut) Oil'
 bad_ingredients = []
-## TODO: replace this line
-## assign bad_ingredients to an array of the ingredients you're looking for
+## TODO: fill out the array bad_ingredients to replace the individual variables
 
 # text body
 ingredients_string = ''
@@ -29,10 +32,17 @@ ingredients_string = ''
 ## assign ingredients_string to the comma-separated list of ingredients
 
 # result
-ingredient_found = None
-## TODO: replace this line
-## assign the value of ingredient_found based on bad_ingredients and ingredients_string
+ingredient_found = False
+if bad_ingredient_1 in ingredients_string:
+    ingredient_found = True
+if bad_ingredient_2 in ingredients_string:
+    ingredient_found = True
+if bad_ingredient_3 in ingredients_string:
+    ingredient_found = True
+if bad_ingredient_4 in ingredients_string:
+    ingredient_found = True
+## TODO: replace these lines, to use the array bad_ingredients instead of handling each individual variable
 ## - loop through the array bad_ingredients
-##   - for each ingredient, if the ingredient is in the text body then set ingredient_found to False
+##   - for each ingredient, if the ingredient is in the text body then set ingredient_found to True
 
 print('Ingredient Found:', ingredient_found)
