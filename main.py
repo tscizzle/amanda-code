@@ -26,3 +26,4 @@ def ingredient_finder(words, text_body):
 ## TODO: fill in this function
 ## - make the function return a list of words from the `words` argument that are found in text_body
 ## - call this function a few times on different inputs
+## - HINT: if you didn't use the .append method yet, try it out
