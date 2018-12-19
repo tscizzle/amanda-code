@@ -16,9 +16,13 @@ step 3 - remove repeated code
   - topics
     - functions
 
-step 4 - web app
+step 4 - web server
   - topics
     - python imports
     - server / client
     - flask
+
+step 4 - web client
+  - topics
+    - browser and requests
     - html
