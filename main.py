@@ -3,18 +3,31 @@
 # - arrays: https://www.w3schools.com/python/python_arrays.asp
 # - for loops: https://www.w3schools.com/python/python_arrays.asp (scroll down to "Looping Array Elements")
 
-## EXAMPLE: check if any ages in an array are senior citizens
+## EXAMPLE 1 (Arrays): You have a list of credit card numbers. Check if any of them match your credit card number.
 
-SENIOR_CITIZEN_AGE = 65
+THE_NUMBER = 8
 
-citizen_ages = [13, 5, 28, 29, 72, 8]
+possible_card_numbers = [13, 5, 28, 8, 29, 72]
 
-found_a_senior_citizen = False
+found_my_credit_card_number = False
 
-for age in citizen_ages:
+for number in possible_card_numbers:
 
-    if age >= SENIOR_CITIZEN_AGE:
-        found_a_senior_citizen = True
+    if possible_card_numbers == THE_NUMBER:
+        # The number is... 8.
+        found_my_credit_card_number = True
+
+## EXAMPLE 2 (For loops): Figure out whether or not someone is in their late twenties.
+list_of_ages = [3, 26, 73, 31, 55, 66, 28, 16]
+
+for age in list_of_ages:
+    print("What is he, in his late twenties?")
+    if age < 25:
+        print("I'm... not sure.")
+    elif age > 30:
+        print("I'm... not sure.")
+    else:
+        print("Yes.")
 
 ## PROBLEM
 
